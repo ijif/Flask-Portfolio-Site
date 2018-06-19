@@ -1,4 +1,4 @@
-# Flask on Heroku 
+How to deploy Flask to Heroku
 
 
 
@@ -51,10 +51,10 @@ _(You need to have installed Postgres locally to run the app. For a simpler sqli
 
 ```bash
 # Create the virtualenv
-$ mkvirtualenv flask-heroku-example
+$ mkvirtualenv *repo
 # Install dependencies
 $ pip install -r requirements.txt
 # Run the app
-$ python flask_heroku_example/main.py
+$ python *repo/main.py
 # Now point your browser to localhost:5000
 ```
